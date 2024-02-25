@@ -1,6 +1,6 @@
 🔍 Q1: What are React hooks? Explain the difference between useState and useEffect.
 
-A1: React hooks are functions that allow us to use 
+> React hooks are functions that allow us to use 
 >state and lifecycle features in functional components.
 >useState is used to manage state,
 >while useEffect is used to handle side effects like fetching data or subscribing to events.
@@ -11,6 +11,21 @@ const [count, setCount] = useState(0);
 useEffect(() => {
  document.title = `Count: ${count}`;
 }, [count]);
+
+
+🔍 Q2.Why is React known as React?
+
+>React is called React because it was designed to be a declarative, efficient, and flexible JavaScript library for building user interfaces.
+>React is named React because of its ability to react to changes in data. When the data in a React component changes, React will automatically re-render the component so that it reflects the new data. This makes it easy to create UI that always look up-to-date
+>React makes it painless ,to create interactive UIs.
+
+🔍 Q3.What is Emmet?
+
+- Emmet is a built-in feature in Visual Studio Code. 
+- We don’t have to install any extensions for emmet support.
+- Emmet prevents us from writing the entire code by yourself by providing Emmet abbreviation.
+- Emmet is enabled by default in html
+
 
 🧩 Q2: What is the Context API in React? How can it be used to manage global state?
 
